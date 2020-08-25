@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/gkr3tf3fsl4ui2v/export.pkl?raw=1'
+export_file_url = 'https://drive.google.com/file/d/1BN6_xjpaQnrJR3K6KgM80nElLfohCqA3/view?usp=sharing'
 export_file_name = 'export.pkl'
 
-classes = ['cat', 'dog']
+classes = ['Actinic keratoses','Basal cell carcinoma','Benign keratosis ','Dermatofibroma','Melanocytic nevi','Melanoma','Vascular lesions']
 path = Path(__file__).parent
 
 app = Starlette()
